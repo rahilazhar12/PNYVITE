@@ -39,7 +39,7 @@ export const Homecarousal = () => {
 
     return (
         <div>
-            <Carousel className="h-56 w-full max-sm:h-20 md:h-96">
+            <Carousel className="h-56 w-full max-sm:h-20 md:h-96 -z-50">
                 {data.map((slider) => (
                     <div key={slider.id} className="w-full h-full">
                         <img

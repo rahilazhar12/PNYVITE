@@ -11,6 +11,10 @@ import a4 from '../../assets/About us icons/4.png'
 import a5 from '../../assets/About us icons/5.png'
 import a6 from '../../assets/About us icons/6.png'
 
+
+import wahab from '../../assets/image/wahab.png'
+import suleman from '../../assets/image/sulman.png'
+
 export const contactus = [
     {
       id: 1,
@@ -107,3 +111,47 @@ export const contactus = [
       description: "Our up-to-date curriculum reflects the latest trends and technologies in the IT industry.",
     },
   ]
+
+  export const durationdata = [
+    {
+      id: 1,
+      title: "1 Year Professional Diploma Programs",
+      description: "A 1-year diploma is ideal for students who build their careers in software, graphics, web, and marketing for potential growth",
+    },
+    {
+      id: 2,
+      title: "6 Months Certified Courses",
+      description: "Accelerate your career with our comprehensive 6-month certified Courses. Gain specialized expertise and excel in your career.",
+    },
+    {
+      id: 3,
+      title: "3-2 Months Certified Courses",
+      description: "Elevate your expertise from 3 to 2 months with our Professional Certification Courses. Unlock new career opportunities!",
+    },
+    {
+      id: 4,
+      title: "Professional Boot Camp",
+      description: "Join our Professional Bootcamp and gain valuable insights to advance your career. Don't miss out!",
+    },
+  ]
+
+  export const ownersdata = [
+    {
+      id: 1,
+      image: wahab,
+      name: "Wahab Yunus",
+      designation: "Founder & CEO",
+      linkedin: "https://www.linkedin.com/in/wahabyunus",
+      twitter: "https://twitter.com/wahabyunus"
+    },
+    {
+      id: 2,
+      image: suleman,
+      name: "Suleman Ikram",
+      designation: "Co-Founder & Director",
+      linkedin: "https://www.linkedin.com/in/sulemanikram",
+      twitter: "https://twitter.com/sulemanikram"
+    },
+  ];
+  
+  

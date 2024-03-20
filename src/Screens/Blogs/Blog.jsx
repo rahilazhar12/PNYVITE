@@ -152,7 +152,7 @@ const Blog = () => {
 
       <div className="p-6">
         <h5
-          className="text-2xl text-[#F10900] font-bold tracking-tight mb-2 dark:text-white"
+          className="text-2xl text-black font-bold tracking-tight mb-2 dark:text-white"
           data-aos="fade-up-right"
           data-aos-delay={`${index * 100}`}
         >
@@ -167,7 +167,7 @@ const Blog = () => {
           {item.description_short}
         </p>
 
-        <Link to={`/blog/marketing/${item.url_slug}`} className="inline-block bg-[#F10900] text-white rounded-full px-6 py-2 font-semibold hover:bg-[#D00800] transition-colors">
+        <Link to={`/blog/marketing/${item.url_slug}`} className="inline-block bg-[#3f83f8] text-white rounded-full px-6 py-2 font-semibold hover:bg-blue-600 transition-colors">
           Read more
         </Link>
       </div>

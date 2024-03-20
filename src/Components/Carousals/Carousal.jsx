@@ -1,6 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { Carousel } from "flowbite-react";
 import gif from '../../assets/image/gif.gif'
+import c1 from "../../assets/Collaboration/1.png";
+import c2 from "../../assets/Collaboration/2.png";
+import c3 from "../../assets/Collaboration/3.png";
+import c4 from "../../assets/Collaboration/4.png";
+import c5 from "../../assets/Collaboration/5.png";
+import c6 from "../../assets/Collaboration/6.png";
+import c7 from "../../assets/Collaboration/7.png";
+import g1 from "../../assets/image/g1.png";
+import g2 from "../../assets/image/g2.png";
 
 export const Homecarousal = () => {
     const [data, setData] = useState([]);
@@ -53,3 +62,32 @@ export const Homecarousal = () => {
         </div>
     );
 };
+
+
+export const Carousalcollaboration = () => {
+    return (
+      <div>
+        <Carousel className="max-sm:h-36  lg:h-80   md:h-56 ">
+          <img alt="..." src={c1} />
+          <img alt="..." src={c2} />
+          <img alt="..." src={c3} />
+          <img alt="..." src={c4} />
+          <img alt="..." src={c5} />
+          <img alt="..." src={c6} />
+          <img alt="..." src={c7} />
+        </Carousel>
+      </div>
+    );
+  };
+
+
+  export const CarousalEmpower = () => {
+    return (
+      <div>
+        <Carousel className="max-sm:h-20  lg:h-32  md:h-20  ">
+          <img alt="..." src={g1} />
+          <img alt="..." src={g2} />
+        </Carousel>
+      </div>
+    );
+  };

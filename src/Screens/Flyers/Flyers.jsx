@@ -61,15 +61,14 @@ const Flyers = () => {
        
       </section>
       <section className="lg:h-[254px] bg-[#152438;] text-white flex flex-col justify-center items-center max-sm:p-5 ">
-        <div className="text-[48px] max-sm:text-[24px] font-semibold riseUp 1s ease-out forwards space-y-3">
-          <h1
-            className="text-white text-6xl font-bold -z-50 text-center outline-text-white"
-            style={{
-              animation: "riseUp 2s ease-out forwards", // Change the duration and ease as needed
-            }}
-          >
-            E-Flyers
-          </h1>
+        <div className="max-sm:text-[24px] font-semibold riseUp 1s ease-out forwards space-y-3">
+          
+        <div class="text-container">
+  <h1 class="outline-text-white-flyers">
+    E-Flyers
+  </h1>
+</div>
+
           <h4 className="text-center text-xl"></h4>
         </div>
         {/* <div className='text-[20px] font-normal max-sm:text-[16px] max-sm:text-center'>Learn more about the company and the team behind it.</div> */}

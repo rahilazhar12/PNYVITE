@@ -112,7 +112,7 @@ const Categories = () => {
             <img
               src={item.course_image}
               alt="Course"
-              className="w-full h-64 object-cover object-center"
+              className="w-full h-44 object-cover object-center"
             />
           </Link>
           <div className="p-3">

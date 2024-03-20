@@ -64,11 +64,11 @@
 /* Blue */
 .outline-text {
   color: transparent;
-  -webkit-text-stroke: 1px rgb(3, 84, 233);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
   background: none;
 }
 
-/* White */
+/* White-contactus */
 .outline-text-white {
   color: transparent;
   -webkit-text-stroke: 1px rgb(255, 255, 255);
@@ -109,3 +109,46 @@
   background: rgba(128, 128, 128, 0.5); /* Adjust the gray overlay */
   z-index: -1;
 }
+
+/* E-flyer animation */
+
+@keyframes fillEffect {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.outline-text-white-flyers {
+  position: relative;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  font-size: 50px;
+  background: none;
+  z-index: 1;
+}
+
+.outline-text-white-flyers::before {
+  content: "E-Flyers";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #fff; /* or any color you want the fill to be */
+  -webkit-text-stroke: 0;
+  z-index: -1;
+  animation: fillEffect 2s ease forwards;
+}
+
+/* This container will hide the overflowing part of the pseudo-element */
+.text-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* End */

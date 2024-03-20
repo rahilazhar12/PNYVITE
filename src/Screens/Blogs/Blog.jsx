@@ -168,7 +168,7 @@ const Blog = () => {
         </p>
 
         <Link to={`/blog/marketing/${item.url_slug}`} className="inline-block bg-[#3f83f8] text-white rounded-full px-6 py-2 font-semibold hover:bg-blue-600 transition-colors">
-          Read more
+          Read moree
         </Link>
       </div>
     </div>
